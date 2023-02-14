@@ -1,2 +1,2 @@
 # Circuit Implementation and Analysis of a Quantum Walk-Based Algorithm
-In this repository we explain how to search and search complement algorithms based on Discrete-Time Quantum Walks.
+In this repository we provide a modified version of the SKW algorithm (https://arxiv.org/abs/quant-ph/0210064) to perform the search of a marked node in a $2^n$-dimensional complete graph with self-loops, by increasing the probability of the quantum state associated to the marked node. Additionally, we provide a second modification to the SKW algorithm to obtain what we call the $search complement$, i.e. in this case we decrease the probability of obtaining the quantum state associated to a marked node of the graph.
